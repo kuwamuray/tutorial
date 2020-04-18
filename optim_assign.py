@@ -25,7 +25,7 @@ for i in range(8):
 print()
 
 C = list(map(lambda x : [score_sum(x), x], list(set(itertools.permutations("00011122")))))
-C.sort(reverse=True)
+C.sort(reverse=True) 
 
 i = 0
 D = int(C[0][0])
